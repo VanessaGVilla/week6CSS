@@ -39,6 +39,8 @@ h2 {
 
 header {
 	text-align: center;
+	grid-row: 1;
+	grid-column: 1 / 4;
 }
 
 main {
@@ -72,8 +74,3 @@ p {
 
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-gap: 10px 20px;
-  }
