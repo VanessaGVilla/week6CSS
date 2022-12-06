@@ -73,6 +73,7 @@ aside {
 }
 
 #header-container {
+	  display: grid;
           grid-row: 1;
 	grid-column: 1 / 4;
 }
