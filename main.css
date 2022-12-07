@@ -9,6 +9,15 @@ a:link, a:visited {
 	color: blue;
 }
 
+#outer-container {
+    color: white;
+    column-gap: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 250px auto 250px;
+}
+
+
 a:focus, a:hover {
 	background-color: #ddddff;
 	border-radius: 5px;
